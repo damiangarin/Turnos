@@ -12,8 +12,7 @@ const pacientes = [
 const contenedorAsignado = document.querySelector(".asignados")
 const inputDni = document.querySelector("#inputDni")
 
-const persona = document.createElement("p")
-contenedorAsignado.appendChild(persona)
+const persona = document.querySelector(".persona")
 
 const checkearTurno = () => {
     // buscar dni en pacientes[{}]
