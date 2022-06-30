@@ -1,0 +1,13 @@
+.asignados {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vw;
+}
+
+.persona {
+    min-width: 1rem;
+    min-height: 1rem;
+}
